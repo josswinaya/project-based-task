@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 
 // Catatan: Kalau nanti jonathan dan juna sudah buat file Rifqi.jsx, tinggal di-import di sini
-import jonathan from './pages/jonathan.jsx';
+// import Jonathan from './pages/jonathan.jsx';
 // import Juna from './pages/Juna.jsx';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route path="/joshua-winner-naya" element={<Home />} />
 
         {/* Nanti temanmu tinggal ditambah di bawah sini: */}
-        {<Route path="/jonathan-winner" element={<jonathan />} />}
+        {/* <Route path="/jonathan-winner-naya" element={<Jonathan />} /> */}
       </Routes>
     </Router>
   );
